@@ -40,7 +40,7 @@ void Print2DArray(double[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write($"{array[i, j]} ");
+            Console.Write($"{array[i, j]}  ");
         }
         Console.WriteLine();
     }
